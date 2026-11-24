@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>项目验收文档稽核平台</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<aside class="sidebar">
+  <div class="brand">
+    <div class="brand-mark">稽</div>
+    <div>
+      <div class="brand-title">文档稽核平台</div>
+      <div class="brand-sub">验收材料合规检查</div>
+    </div>
+  </div>
+  <nav class="nav">
+    <a href="#/dashboard" data-nav="dashboard"><span class="ico">◫</span>概览</a>
+    <a href="#/audit" data-nav="audit"><span class="ico">✓</span>单文档稽核</a>
+    <a href="#/directory" data-nav="directory"><span class="ico">▤</span>项目目录稽核</a>
+    <a href="#/standards" data-nav="standards"><span class="ico">⚙</span>稽核标准</a>
+    <a href="#/history" data-nav="history"><span class="ico">☰</span>历史记录</a>
+  </nav>
+  <div class="side-foot">
+    <div>数据本地留存</div>
+    <div>SQLite · 可追溯审计</div>
+  </div>
+</aside>
+<main id="main" class="main">
+  <div class="loading">加载中…</div>
+</main>
+<div id="modal-root"></div>
+<div id="toast" class="toast"></div>
+<script src="/app.js"></script>
+</body>
+</html>

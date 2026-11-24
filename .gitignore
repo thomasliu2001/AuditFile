@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# 运行时数据（本地稽核库）
+data/*.db
+data/*.db-journal
